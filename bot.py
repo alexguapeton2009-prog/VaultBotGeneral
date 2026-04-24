@@ -5,7 +5,8 @@ import asyncio
 # ─────────────────────────────────────────
 #  CONFIGURACIÓN  —  edita solo esta sección
 # ─────────────────────────────────────────
-TOKEN = "" 
+import os
+TOKEN = os.getenv("DISCORD_TOKEN")
 
 GUILD_ID             = 
 BIENVENIDA_CH_ID     = 
