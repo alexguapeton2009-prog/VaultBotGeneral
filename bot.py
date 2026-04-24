@@ -1,5 +1,7 @@
 import traceback
 import sys
+print("Python version:", sys.version)
+sys.stdout.flush()
 import discord
 from discord.ext import commands
 import asyncio
